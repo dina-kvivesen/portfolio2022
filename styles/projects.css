@@ -1,0 +1,61 @@
+.wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 313px;
+  color: black;
+  box-shadow: 3px 8px 15px #d8d8d8;
+}
+
+#rainycard {
+  background: linear-gradient(45deg, rgb(235, 235, 235) 50%, #fff 50%);
+}
+#sciencecard {
+  background: linear-gradient(45deg, #c4afb9 50%, #fff 50%);
+}
+#sugarspicecard {
+  background: linear-gradient(45deg, #c4eef2 50%, #fff 50%);
+}
+.logo-wrap {
+  height: 180px;
+  display: flex;
+  justify-content: center;
+}
+.logo-wrap-img {
+  max-width: 250px;
+  display: block;
+  margin: auto;
+}
+#rainylogo {
+  max-width: 200px;
+}
+a {
+  color: black;
+  display: block;
+  padding: 10px 0;
+}
+.links {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    letter-spacing: 0.15rem;
+    text-transform: lowercase;
+}
+h3 {
+  text-transform: uppercase;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    letter-spacing: 0.15rem;
+    text-align: center;
+}
+

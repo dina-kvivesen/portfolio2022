@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio 1 - projects from the first year of studying Front-end development"/>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://use.typekit.net/dic5qla.css">
+    <link rel="stylesheet" href="https://use.typekit.net/fje3isb.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="styles/styles.css" rel="stylesheet" />
+    <link href="styles/contact.css" rel="stylesheet" />
+    <link href="styles/projects.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/5ecac85c66.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <nav>
+    <div id="toggleIcon">
+        <i class="fas fa-ellipsis-v"></i>
+    </div>
+    <div id="menu-overlay">
+        <ul>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+  </nav>
+
+<div class="all-content">
+
+<section class="left-content">
+  <div class="sidenav">
+    <p><a href="#header" id="logo"> DINA KVIVESEN</a></p>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</section>
+
+<section class="right-content">
+<header id="header">
+</header>
+
+  <div class="header-content">
+    
+    <div class="profile image">
+        <img src="images/IMG_1329.jpeg" id="profileimg">
+    </div>
+    <h1 class="indexh1"> Hi! I'm Dina </h1>
+  
+    <div class="container">
+      <div class='console-container'>
+        <span id='text'></span> 
+        <div class='console-underscore' id='cursor'>|</div>
+    </div>
+  </div>
+
+</div>
+<main>
+  <div class="about-me-text">
+  <h2 id="about">about me</h2>
+        
+            <p>I'm 26 years old and I live in Stavanger, Norway. I'm currently a student at Noroff School of technology and digital media, studying Front-end development.</p>
+
+            <p>Whether the internet or the outdoors, I love exploring, and I apply this open mindset to my creative projects. I love seeing things come to life on the web, and I would love to use my passions to help you pursue yours!</p>
+    
+            <p>Take a look at <a id="links" href="#projects">some of my projects.</a> and feel free to get in <a id="links" href="#contact"> touch.</a></p>
+        </div>
+
+        <h2>my skills</h2>
+        <div class="skills-container">
+            
+            <div class="skills-wrapper">
+                <p>HTML5</p>
+                <p>CSS</p>
+                <p>Sass/SCSS</p>
+                <p>Bootstrap</p> 
+            </div>
+            <div class="skills-wrapper">
+                <p>Javascript</p>
+                <p>React</p>
+                <p>RESTful APIs</p>
+                <p>Wordpress</p>
+            </div>
+            <div class="skills-wrapper">
+              <p>Github</p>  
+              <p>SEO practices</p>
+              <p>Web accessibility</p>
+            </div>
+            <div class="skills-wrapper">
+                <p>Adobe Creative Cloud</p>
+                <p>Responsive web design</p>
+            </div>
+        </div>
+
+        <div class="image-carousel">
+          <figure class="selected-image">
+              <img src="images/harley.jpg" alt="me and my dog" />
+          </figure>
+          <figure>
+              <img src="images/hoddevik.jpg" alt="hoddevik" />
+          </figure>
+          <figure>
+              <img src="images/surf.jpg" alt="surf at bore beach, stavanger" />
+          </figure>
+          <figure>
+              <img src="images/tempelstå2.jpg" alt="me in Bali"/>
+          </figure>
+          <figure>
+              <img src="images/bali.jpg" alt="roadtrip in Bali" />
+          </figure>
+      </div>
+
+      <h2 id="contact">let's connect</h2>
+        <div class="contact-container">
+            <div class="about-me-text">
+              <p>If you're interested in working together or if you have any 
+                questions, please email <span id="email-link">dina.kvivesen@hotmail.com</span>
+                or fill in the form below. I'd love to hear 
+                from you!
+              </p>
+            </div>
+            
+            <div class="contact-form">
+            <form>
+              <div id="message"></div>
+              <div>
+                <p>All fields are required!</p>
+                  <label>
+                      Name
+                      <input class="text-box" name="name" id="name" />
+                  </label>
+                  <div class="form-error" id="nameError">Please enter your name</div>
+              </div>
+    
+              <div>
+                  <label>
+                      Email
+                      <input class="text-box" name="email" id="email" />
+                  </label>
+                  <div class="form-error" id="emailError">Please enter a valid email address</div>
+              </div>
+    
+              <div>
+                <label>
+                    Subject
+                    <input class="text-box" name="subject" id="subject" />
+                </label>
+                <div class="form-error" id="subjectError">Subject must be minimum 3 characters</div>
+            </div>
+    
+              <div>
+                <label>
+                    Message
+                    <textarea
+                id="message-container"
+                name="message"
+              ></textarea>
+                </label>
+                <div class="form-error" id="messageError">Message must be minimum 10 characters</div>
+            </div>
+    
+              <button class="send-button">Send</button>
+          </form>
+        </div>
+      </div>
+        
+        <h2 id="projects">projects</h2>
+        <div class="wrapper">
+          <div class="card" id="rainycard">
+              <div class="logo-wrap">
+              <img src="images/RainyDays_Logo-kopi 2.png" class="logo-wrap-img" id="rainylogo">
+              </div>
+              <h3> Outerwear web shop</h3>
+              <div class="links">
+                  <a href="https://rainydays-dinakv.netlify.app/"> View live website </a>
+                  <a href="https://github.com/dina-kvivesen/rainydays-website">View code</a>
+              </div>
+          </div>
+    
+          <div class="card" id="sciencecard">
+              <div class="logo-wrap">
+              <img src="images/logo1-kopi 2.png" class="logo-wrap-img">
+              </div>
+              <h3>Science museum</h3>
+              <div class="links">
+                  <a href="https://c-s-m.netlify.app/"> View live website </a>
+                  <a href="https://github.com/dina-kvivesen/semester-project-1">View code</a>
+              </div>
+          </div>
+     
+            
+          <div class="card" id="sugarspicecard">
+              <div class="logo-wrap">
+              <img src="images/logo-kopi 2.png" class="logo-wrap-img">
+              </div>
+              <h3>Food blog</h3>
+              <div class="links">
+                  <a href="https://sugarandspice-portfolio1.netlify.app/"> View live website </a>
+                  <a href="https://github.com/dina-kvivesen/Project-exam---portfolio-version">View code</a>
+              </div>
+          </div>
+      </div>
+</section>
+</div>
+</main>
+        
+    <footer>
+        
+    </footer>
+<script src="js/script.js"></script>
+<script src="js/contact.js"></script>
+</body>
+</html>
