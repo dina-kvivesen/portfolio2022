@@ -295,6 +295,9 @@ h4 {
   margin: auto;
   padding: 1em 0;
 }
+footer a {
+  display: inline-block;
+}
 
 
 /*mobile/tablet styles*/
