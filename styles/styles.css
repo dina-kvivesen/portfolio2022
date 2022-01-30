@@ -161,8 +161,7 @@ header {
   position: absolute;
   top: 20%;
   left:50%;
-  margin-left:-80px;
-  
+  margin-left: -130px;
 }
   #profileimg {
     border-radius: 48%;
@@ -183,14 +182,13 @@ header {
     text-align: center;
   }
 
-
-  h2 {
-    font-size: 3em;
-    font-family: "Lora", serif;
-    text-transform: lowercase;
-    letter-spacing: 0.25rem;
-    font-weight: lighter;
-    text-align: center;
+h2 {
+  font-size: 3em;
+  font-family: "Lora", serif;
+  text-transform: lowercase;
+  letter-spacing: 0.25rem;
+  font-weight: lighter;
+  text-align: center;
 }
 
 .about-me-text {
@@ -246,7 +244,7 @@ figure {
   transition: 0.5s all;
   overflow: hidden;
   opacity: 0.5;
-  height: 300px;
+  height: 400px;
 }
 figure:hover {
   cursor: pointer;
@@ -255,8 +253,6 @@ figure:hover {
   flex: 3;
   opacity: 1;
 }
-
-
 .console-container {
   text-transform: uppercase;
   font-weight: 300;
@@ -281,6 +277,25 @@ figure:hover {
   text-align: center;
 }
 
+footer {
+  background: #656F62;
+  width: 100%;
+  margin-bottom: 0;
+  text-align: center;
+  padding: 1em;
+  font-size: 1em;
+}
+#icons {
+  font-size: 1.5em;
+  margin: 1em 0.3em;
+}
+h4 {
+  border-top: 1px solid black;
+  width: fit-content;
+  margin: auto;
+  padding: 1em 0;
+}
+
 
 /*mobile/tablet styles*/
 @media only screen and (max-width: 950px) {
@@ -291,11 +306,6 @@ figure:hover {
   .left-content{
     display: none;
   }
-
- /*  main {
-    text-align: center;
-    max-width: 100%;
-  } */
   nav {
     display: flex;
     justify-content: space-between;
@@ -339,5 +349,15 @@ figure:hover {
   }
   nav {
     display: none;
+  }
+  .header-content {
+    min-height: 700px;
+    min-width: 450px;
+  }
+  .about-me-text, .skills-container  {
+  max-width: 700px;
+  }
+  .image-carousel {
+    max-width: 700px;
   }
 }
